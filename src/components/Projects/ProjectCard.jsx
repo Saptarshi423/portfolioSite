@@ -18,9 +18,9 @@ export const ProjectCard = ({
       <div className="project-details-container">
         <h2 className="project-heading">{projectName}</h2>
         <p className="project-details">{projectDescription}</p>
-        <a href={projectUrl} className="project-yt-link">
+        {/* <a href={projectUrl} className="project-yt-link">
           Click here to see more!
-        </a>
+        </a> */}
       </div>
     </div>
   );

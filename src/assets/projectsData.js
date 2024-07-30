@@ -1,8 +1,23 @@
 export const projectsData = [
   {
+    projectName: "Compfy SLoth",
+    projectDescription:"An ecommerce web application built using React, Redux. Implemented authorization using Auth0 and ability to filter, add, to cart, remove from cart etc.",
+    imageUrl:
+      "https://github.com/user-attachments/assets/08a87439-bc7f-40d1-b547-6b45f0d4682d",
+    projectUrl: "https://github.com/Saptarshi423/Comfy-sloth/tree/main",
+  
+  },
+  {
+    projectName: "Multiplayer Tic Tac Toe",
+    projectDescription:"A multiplayer game enabling 2 player to play together. Tech Stach:- React, TypeScript, CSS, SocketIO, NodeJS",
+    imageUrl:
+      "https://github.com/user-attachments/assets/32ef7cdb-9766-498b-a621-9b1a5c87c4c5",
+    projectUrl:"https://github.com/Saptarshi423/TicTacToe-Client"
+  },
+  {
     projectName: "ExpenseTracker",
     projectDescription:
-      "Having a good way to manage your expenses will always make you aware about your spendings! Here, I present you the Expense Tracker app, where you can keep track of your Income and expenses",
+      "I present you the Expense Tracker app, where you can keep track of your Income and expenses",
     imageUrl:
       "https://user-images.githubusercontent.com/51373298/160224929-592e66b4-f8e7-4d2d-9a88-d85f1ddaedc1.PNG",
     projectUrl: "https://github.com/Saptarshi423/ExpenseCalculator",
@@ -10,7 +25,7 @@ export const projectsData = [
   {
     projectName: "Metro ShopApp",
     projectDescription:
-      "A web based ecommerce application developed using NodeJS. The app come with features that allow publishing of new product entries, adding product pictures through URL. Products are managed through the admin. In databse I used stored MongoDB for storing product information, user information(eg:- user credentials, products under particular user), cart information.",
+      "Web based ecommerce application. The app come with features that allow publishing of new product entries, adding product pictures. Products are managed through the admin.",
     imageUrl:
       "https://user-images.githubusercontent.com/51373298/151177220-08cbd0f3-f921-418d-a52f-bd192bfcc508.JPG",
     projectUrl: "https://github.com/Saptarshi423/MetroShopp",
@@ -32,11 +47,10 @@ export const projectsData = [
     projectUrl: "https://github.com/Saptarshi423/Bot",
   },
   {
-    projectName: "Portfolio Website",
-    projectDescription:
-      "As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.",
-    imageUrl:
-      "https://user-images.githubusercontent.com/51373298/160226187-6a007e18-8a42-4060-b1a4-a200dc591102.PNG",
-    projectUrl: "http://madhavbahl.tech/portfolio/",
-  },
+    projectName: "Timer Watch",
+    projectDescription: "A simple timer app to keep track of you time. Tech Stack:- React, TypeScript, CSS, HTML",
+    imageUrl:"https://github.com/user-attachments/assets/7866d086-0387-482d-9678-27d607fff4a5",
+    projectUrl: "https://github.com/Saptarshi423/stop-watch"
+  }
+  
 ];

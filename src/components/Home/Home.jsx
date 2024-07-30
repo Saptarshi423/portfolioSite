@@ -9,18 +9,25 @@ class Home extends React.Component {
       <div className="home-container">
         <div className="header-text">
           <h1>Welcome to my Portfolio</h1>
-          <p>
-            This is Saptarshi, a passionate & enthusiastic Software Engineer.
-          </p>
+          {/* This is Saptarshi, a passionate & enthusiastic Software Engineer. */}
+          <div className="about-text">
+            <p>
+              Myself <b>Saptarshi Kattyayan</b> a Software Engineer with 3+ years of
+              industry experience in building web applications, overcoming
+              complex bugs, and fixing issues in diverse environments. Capable
+              of creating, developing and deploying highly available systems to
+              translate business needs.
+            </p>
+          </div>
         </div>
         <div className="head-btns">
           <a
-            href="https://drive.google.com/file/d/1IZofPWtvuJSmG5BUV5JTKFH8_k007H8k/view?usp=sharing"
+            href="https://drive.google.com/file/d/1PPc4X1RqfnC4tEzoKigJRXw1o4SPt8f-/view?usp=sharing"
             className="btn btn-white"
           >
             <p className="btn-text">View My Resume</p>
           </a>
-          <Link to="/contact" className="btn btn-transparent">
+          <Link to="/contact" className="btn btn-white">
             <p className="btn-text">Connect with me</p>
           </Link>
         </div>

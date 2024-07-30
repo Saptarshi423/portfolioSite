@@ -1,12 +1,12 @@
 .home-container {
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+  /* background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow-y: auto;
-  padding: 100px 10%;
-  min-height: 100vh;
+  padding: 15px 10%;
+  min-height: 94vh;
   box-sizing: border-box;
 }
 
@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 .header-text > h1 {
   font-family: Poppins;
@@ -22,7 +23,7 @@
   font-size: 3em;
   line-height: 62px;
   letter-spacing: 0.2px;
-  color: white;
+  color: #251f1f;
   margin: 10px;
 }
 
@@ -91,7 +92,14 @@
 }
 
 .home-anime {
-  margin-bottom: -80px;
+  /* margin-bottom: -80px; */
+}
+
+.about-text {
+  width: 70%;
+  font-family: Montserrat;
+  font-size: larger;
+  letter-spacing: normal;
 }
 
 /*For small height screen size*/

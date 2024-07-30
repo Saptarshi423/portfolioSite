@@ -57,7 +57,7 @@ export const Contact = () => {
         </a>
       </div>
 
-      <Footer phrase="Get to know " link="about me" toAddress="/about" />
+      {/* <Footer phrase="Get to know " link="about me" toAddress="/about" /> */}
       <div className="vector-frame">
         <img src={contactVector} alt="anime" className="about-vector" />
       </div>

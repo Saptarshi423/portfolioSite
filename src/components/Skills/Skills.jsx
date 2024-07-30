@@ -26,7 +26,7 @@ export const Skills = () => {
         })}
       </div>
 
-      <Footer phrase="Get in " link="touch." toAddress="./contact" />
+      {/* <Footer phrase="Get in " link="touch." toAddress="./contact" /> */}
       <div className="skills-vector-frame">
         <img src={skillsVector} alt="skills" className="skills-vector" />
       </div>

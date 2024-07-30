@@ -30,7 +30,7 @@ export const Projects = () => {
         })}
       </div>
 
-      <Footer phrase="Check out " link="my skills!" toAddress="/skills" />
+      {/* <Footer phrase="Check out " link="my skills!" toAddress="/skills" /> */}
     </div>
   );
 };
