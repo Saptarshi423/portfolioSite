@@ -15,6 +15,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-top: 3.5rem;
 }
 .header-text > h1 {
   font-family: Poppins;
@@ -96,7 +97,7 @@
 }
 
 .about-text {
-  width: 70%;
+  width: 100%;
   font-family: Montserrat;
   font-size: larger;
   letter-spacing: normal;

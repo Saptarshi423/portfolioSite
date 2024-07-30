@@ -46,8 +46,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu {
   background: linear-gradient(39.97deg, #c3d1d3 0.79%, #231f2d 79.29%);
   /* padding: 2.5em 1.5em 0 0; */
-  height: 100vh;
   overflow: hidden !important;
+  position: fixed !important;
+  height: 5% !important;
+  width: 100% !important;
 }
 
 /* Wrapper for item list */
@@ -104,7 +106,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 @media only screen and (max-width:460px){
   .menu-item{
-    font-size: 1em;
+    font-size: 1.1em;
     margin-right: 0px;
   }
 }
